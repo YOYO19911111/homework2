@@ -1,2 +1,24 @@
+HEAD
 dist/
 node_modules/
+
+Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+[Oo]bj/ # FlashDevelop obj
+[Bb]in/ # FlashDevelop bin
+
+ Other files and folders
+.settings/
+
+Executables
+*.swf
+*.air
+*.ipa
+*.apk
+
+Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+should NOT be excluded as they contain compiler settings and other important
+information for Eclipse / Flash Builder.
+aed9a75b19af924c178b8c1730d66ec3aa19f7ab
