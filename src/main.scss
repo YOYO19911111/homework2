@@ -1,0 +1,381 @@
+*{
+  color: black;
+  font-size: 15px;
+  margin: 0;
+}
+.all-container{
+  margin: 0px 350px;
+
+}
+.all-container .main-content .theme-img-container, .all-container .main-content .sub-nav {
+  margin: 0 10px;
+}
+.all-container .main-content{
+  padding: 0px;
+  margin:0px 10px 10px 180px;
+}
+.all-container .main-content .theme-img-container{
+  height: 450px;
+}
+
+.all-container .main-content img{
+  height: 100%;
+  width: 100%;
+}
+
+.all-container .main-content .theme-img-container .mask{
+  background-color:transparent;
+  height: 450px;
+  position: relative;
+  top: -450px;
+}
+
+.all-container .main-content .theme-img-container .theme-img-content{
+  width: 50%;
+  height: 35%;
+  top: 64%;
+  left: 50%;
+  position: relative;
+}
+.all-container .main-content .theme-img-container .theme-img-content .h1-container{
+  width: 200px;
+  height:45px;
+  background-color: white;
+  top: 0;
+  left: 59.5%;
+  position: relative;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 15px;
+}
+.all-container .main-content .h1-container h1{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 18px;
+  font-weight: 100;
+  padding-top: 15px;
+}
+.all-container .main-content .theme-img-container .theme-img-content .whattobuy{
+  width: 450px;
+  height:40px;
+  background-color: black;
+  top:0;
+  left: 9%;
+  right: 0;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+}
+.all-container .main-content .whattobuy p{
+  font-family: fantasy;
+  font-size: 13px;
+  font-weight: 100;
+  color: white;
+  padding-top: 10px;
+}
+.all-container .main-content .photo-taken{
+  width: 100px;
+  height:25px;
+  background-color: #cbcbcb;
+  top: 40px;
+  left: 78%;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+}
+.all-container .main-content .photo-taken p{
+  font-size: 10px;
+  padding-top: 2px;
+}
+.all-container .main-content .sub-nav{
+  height: 75px;
+  background-color: #cafff7;
+}
+.all-container .main-content .sub-nav .Tastemakers, .all-container .main-content .sub-nav .Blog, .all-container .main-content .sub-nav .List, .all-container .main-content .sub-nav .Contribute{
+  display: inline-block;
+  height: 100%;
+  width: 23%;
+  padding-left: 10px;
+}
+.all-container .main-content .sub-nav .Tastemakers .Tastemakers-container, .all-container .main-content .sub-nav .Blog .Blog--container, .all-container .main-content .sub-nav .List .List--container, .all-container .main-content .sub-nav .Contribute .Contribute--container{
+  margin: 5% 5%;
+  display: inline;
+}
+
+.all-container .main-content .sub-nav .Tastemakers, .all-container .main-content .sub-nav .Blog, .all-container .main-content .sub-nav .List{
+  border-right: 2px solid #f2f2f2;
+}
+.all-container .main-content .sub-nav .Tastemakers .Tastemakers-container p.T a, .all-container .main-content .sub-nav .Blog .Blog--container p.T a, .all-container .main-content .sub-nav .List .List--container p.T a, .all-container .main-content .sub-nav .Contribute .Contribute--container p.T a{
+  font-size: 15px;
+  color: #29cec9;
+  text-decoration: none;
+}
+.all-container .main-content .sub-nav .Tastemakers p.C a, .all-container .main-content .sub-nav .Blog p.C a, .all-container .main-content .sub-nav .List p.C a, .all-container .main-content .sub-nav .Contribute p.C a{
+  font-size: 10px;
+  color: #29cec9;
+  font-style: italic;
+  text-decoration: none;
+}
+.all-container .main-content .email-zone{
+  height:45px;
+  margin: 20px 10px 0px 10px;
+  border: 2px solid #f2f2f2
+}
+
+.all-container .main-content .email-zone .signup-info, .all-container .main-content .email-zone .signup-pic, .all-container .main-content .email-zone .email-box,  .all-container .main-content .email-zone .suc-button{
+  display: inline-block;
+}
+
+.all-container .main-content .email-zone .signup-pic{
+  height: 70%;
+  width: 7%;
+  position: relative;
+}
+.all-container .main-content .email-zone .signup-pic img{
+  height: 25px;
+  width: 40px;
+  margin-bottom: -1px;
+  margin-left: 10px;
+}
+.all-container .main-content .email-zone .signup-pic .signup-info{
+  height: 40%;
+  width: 50%;
+  position: relative;
+  padding-bottom: 10px;
+}
+.all-container .main-content .email-zone .signup-info p{
+  font-size: 10px;
+  margin: 2px;
+}
+.all-container .main-content .email-zone .email-box{
+  height: 30%;
+  width: 250px;
+  top: -5px;
+  left: 30px;
+  position: relative;
+}
+.all-container .main-content .email-zone .email-box input{
+  width: 100%;
+  height: 100%;
+}
+.all-container .main-content .email-zone .suc-button{
+  height: 50%;
+  width: 100px;
+  top: -5px;
+  left: 80px;
+  position: relative;
+
+}
+.all-container .main-content .email-zone .suc-button button{
+  width: 120px;
+  height: 25px;
+  border-radius: 4px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  background-color: #f2f2f2;
+}
+
+.all-container .main-content .diary-zone{
+  height: 350px;
+  margin: 25px 10px 0px 10px;
+}
+.all-container .main-content .diary-zone .cookbook, .all-container .main-content .diary-zone .chips, .all-container .main-content .diary-zone .pinterest, .all-container .main-content .diary-zone .supper{
+  height:300px;
+  width: 25%;
+  display: inline-block;
+  float: left;
+}
+.all-container .main-content .diary-zone .cookbook img, .all-container .main-content .diary-zone .chips img, .all-container .main-content .diary-zone .pinterest img, .all-container .main-content .diary-zone .supper img{
+  width: 220px;
+  height: 160px;
+  border: 10px solid snow;
+  margin-right: 7px;
+}
+.all-container .main-content .diary-zone .cookbook h2, .all-container .main-content .diary-zone .chips h2, .all-container .main-content .diary-zone .pinterest h2, .all-container .main-content .diary-zone .supper h2{
+  font-size: 13px;
+  color: #29cec9;
+}
+.all-container .main-content .diary-zone .cookbook p, .all-container .main-content .diary-zone .chips p, .all-container .main-content .diary-zone .pinterest p, .all-container .main-content .diary-zone .supper p{
+  font-size: 11px;
+}
+.all-container .main-content .diary-zone .cookbook .cook-text, .all-container .main-content .diary-zone .chips .chips-text, .all-container .main-content .diary-zone .pinterest .pin-text, .all-container .main-content .diary-zone .supper .supper-text{
+  width: 80%;
+}
+.all-container .main-content .diary-zone .cookbook time, .all-container .main-content .diary-zone .chips time, .all-container .main-content .diary-zone .pinterest time, .all-container .main-content .diary-zone .supper time{
+  font-size: 11px;
+  color: #c3c3c3;
+}
+.all-container .main-content .diary-zone .chips a, .all-container .main-content .diary-zone .pinterest a,  .all-container .main-content .diary-zone .supper a, .all-container .main-content .diary-zone .cookbook a {
+  font-size: 13px;
+  color: #29cec9;
+  text-decoration: none;
+}
+.all-container .footer{
+  margin: 20px 10px 20px 10px;
+  height: 200px;
+  position: relative;
+  border-top: 1px solid #f2f2f2;
+  clear: both;
+}
+.all-container .footer footer .footer-content, .all-container .footer footer .footer-img{
+  display: inline-block;
+}
+.all-container .footer img{
+  width: 120px;
+  height: 28px;
+}
+.all-container .footer footer .footer-content{
+  width: 20%;
+  height: 180px;
+  line-height: 15px;
+  margin-top: 20px;
+}
+.all-container .footer footer .footer-content p.policy{
+  font-size: 10px;
+  color: #29cec9;
+}
+.all-container .footer footer .footer-content p.right{
+  font-size: 10px;
+  color: #c3c3c3;
+}
+.all-container .footer footer .footer-img{
+  width: 10%;
+  height: 180px;
+  float: right;
+  margin-top: 20px;
+}
+.all-container .aside{
+  width: 180px;
+  margin: 0;
+  float: left;
+}
+.all-container .aside .logo-pic{
+  width: 30px;
+  top: 0px;
+  left: 30px;
+  position: relative;
+}
+.all-container .aside nav{
+  width: 135px;
+  height:250px;
+  top: 0;
+  left: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+.all-container .aside nav li{
+  list-style-type: none;
+}
+.all-container .aside nav .nav-side{
+  height: 50px;
+  width: 180px;
+  display: inline-block;
+}
+.all-container .aside nav img{
+  width: 30px;
+  margin-bottom: -10px;
+}
+.all-container .aside nav li span{
+  color: #29cec9;
+  font-style: italic;
+  font-size: 13px;
+}
+.all-container .aside .latest-container{
+  width: 180px;
+  height: 70px;
+  margin-top: 20px;
+}
+.all-container .aside .latest-container .latest{
+  width: 150px;
+  top: 0;
+  left: 30px;
+  position: relative;
+}
+
+.all-container .aside .latest h2{
+  font-size: 12px;
+}
+
+.all-container .aside .latest-container .join-us button{
+  width: 145px;
+  height: 25px;
+  top: 0;
+  left: 30px;
+  position: relative;
+  border: 1px solid #f2f2f2;
+  margin-top: 5px;
+  background-color: white;
+}
+.all-container .aside .latest-container .join-us img{
+  width: 25px;
+  height: 20px;
+  margin-bottom: -8px;
+}
+.all-container .aside .join-us span{
+  font-size: 10px;
+  color: #29cec9;
+}
+.all-container .aside .friend-container{
+  width:180px;
+  height: 180px;
+  margin-top: 30px;
+}
+
+.all-container .aside .friend-container .friend{
+  width: 150px;
+  top: 0;
+  left: 30px;
+  position: relative;
+}
+.all-container .aside .friend-container .friend h2{
+  font-size: 12px;
+}
+.all-container .aside .friend-container .friend-content{
+  width: 150px;
+  height: 80px;
+  top: 0;
+  left: 30px;
+  position: relative;
+  margin-top: 5px;
+}
+.all-container .aside .friend-container .friend-content p{
+  font-size: 10px;
+}
+.all-container .aside .friend-container .community button{
+  width: 145px;
+  height: 25px;
+  top: 0;
+  left: 30px;
+  position: relative;
+  border: 1px solid #f2f2f2;
+  margin-top: 5px;
+  background-color: white;
+}
+.all-container .aside .friend-container .community img{
+  width: 25px;
+  margin-bottom: -10px;
+}
+.all-container .aside .friend-container .community span{
+  font-size: 10px;
+  color: #29cec9;
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
